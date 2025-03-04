@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Volkswagen Potosina - Compra Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #add8e6;
+            text-align: center;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            width: 600px;
+            margin: auto;
+        }
+        fieldset {
+            border: none;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        legend {
+            font-weight: bold;
+        }
+        label, input, select {
+            width: 100%;
+            margin-bottom: 10px;
+
+        }
+        input, select {
+            padding: 5px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+
+    <h2>Volkswagen Potosina</h2>
+    <h3>Compra online</h3>
+
+    <form action="" method="post">
+        
+        <fieldset>
+            <legend>Información general del cliente</legend>
+            <label>Nombre: <input type="text" name="nombre"></label>
+            <label>Apellido paterno: <input type="text" name="apellido_paterno"></label>
+            <label>Apellido materno: <input type="text" name="apellido_materno"></label>
+            <label>Nombre de usuario: <input type="text" name="usuario"></label>
+            <label>Password: <input type="password" name="password"></label>
+            <label>Fecha de registro: <input type="date" name="fecha_registro"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos para facturar</legend>
+            <label>País: 
+                <select name="pais">
+                    <option>México</option>
+                    <option>Estados Unidos</option>
+                    <option>Canadá</option>
+                </select>
+            </label>
+            
+            <label>Ciudad:
+                <select name="ciudad">
+                    <option>San Luis Potosí</option>
+                    <option>CDMX</option>
+                    <option>Guadalajara</option>
+                    <option>Monterrey</option>
+                </select>
+            </label>
+
+            <label>Calle: <input type="text" name="calle"></label>
+            <label>Número de casa: <input type="text" name="numero_casa"></label>
+            <label>Colonia: <input type="text" name="colonia"></label>
+            <label>RFC: <input type="text" name="rfc"></label>
+            <label>C.P: <input type="text" name="codigo_postal"></label>
+
+            <label>¿Es tarjeta internacional y residente?</label><br>
+            <label for="si">Sí</label>
+            <input type="radio" id="si" name="tarjeta" value="si" style=" width: 2%;"> 
+            <label for="no">No</label>
+            <input type="radio" id="no" name="tarjeta" value="no" style=" width: 2%;">
+            
+            
+        </fieldset>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Reiniciar</button>
+
+
+    </form>
+
+    <p>Febrero 2012, S.L.P.</p>
+
+</body>
+</html>
