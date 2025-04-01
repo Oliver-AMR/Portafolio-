@@ -1,0 +1,51 @@
+.contenedor{
+	position: relative;
+	background: gray;
+	height: 100px;
+}
+
+.caja1{
+	position: relative;
+	background: orange;
+	height: 50px;
+	left: 10px;
+}
+
+.caja2{
+	position: absolute;
+	background: beige;
+	height: 150px;
+	width: 150px;
+	left: 150px;
+	top: 25px;
+	z-index: -1;
+	
+}
+
+.caja3{
+	position: absolute;
+	background: yellow;
+	width: 125px;
+	height: 125px;
+	right: 75px;
+	top: 40px;
+	z-index: 2;
+}
+
+.caja4{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	background: blue;
+	top: 55px;
+	right: 55px;
+	z-index: 3;
+
+}
+.caja5{
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	border: 5px solid peru;
+	z-index: 4;
+}
