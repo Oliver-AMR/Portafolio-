@@ -1,0 +1,51 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+
+    .palabra {
+      background-color: white;
+      padding: 1rem;
+      text-align: center;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .valor {
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 0.5rem;
+    }
+
+    .px { font-size: 24px; }
+    .cm { font-size: 1cm; }
+    .mm { font-size: 10mm; }
+    .in { font-size: 0.5in; }
+    .pt { font-size: 18pt; }
+    .pc { font-size: 1pc; }
+
+    .em { font-size: 2em; }
+    .rem { font-size: 2rem; }
+    .percent { font-size: 150%; }
+    .vw { font-size: 5vw; }
+    .vh { font-size: 5vh; }
+    .vmin { font-size: 5vmin; }
+    .vmax { font-size: 5vmax; }
+    .ch { font-size: 10ch; }
+    .ex { font-size: 3ex; }
+
+    P{
+      text-align: center;
+      font-weight: bold;
+      font-size: 2vw;
+
+
+    }
