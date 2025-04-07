@@ -1,0 +1,33 @@
+body{
+	background: #aed8e6;
+	margin: 0;
+	padding: 0;
+
+}
+h1, h2{
+	text-align: center;
+}
+button{
+background-color: #0003f0;
+padding: 2px;
+color: white;
+width: 20%;
+height: 4vh;
+margin-left: 40%;
+}
+
+button:hover{
+cursor: pointer;
+background-color: #ffffff;
+padding: 2px;
+color: #0003f0;
+}
+img{
+	width: 80%;
+	border: #0003f0 .3vw solid;
+}
+.galeria{
+	display: flex;
+	margin-left: 4%;
+	margin-top: 10%;
+}
