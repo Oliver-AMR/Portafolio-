@@ -1,124 +1,123 @@
 *{
-      padding: 0px;
-      margin: 0px;
+	padding: 0px;
+	margin: 0px;
 }
 
 .subtitulo1{
-      width: 97vw;
-      color: white;
-      font-family: sans-serif;
-      font-size: 3em;
-      background-color: #004AAD;
-      padding: 1vw;
+	width: 98vw;
+	color: white;
+	font-family: sans-serif;
+	font-size: 3em;
+	background-color: #004AAD;
+	padding: 1vw;
 }
 
 .direccionCaja{
-      display: flex;
+	display: flex;
 }
 
 .infoContacto{
-      background-color: #3885BB;
-      margin: 1vw 1vh;
-      padding: 1vw;
-      color: white;
-      width: 30vw;
-      font-family: serif;
-      font-size: 140%;
-      text-align: justify;
-      font-family: Inter, sans-serif;
+	background-color: #3885BB;
+	margin: 1vw 1vh;
+	padding: 1vw;
+	color: white;
+	width: 30vw;
+	font-family: serif;
+	font-size: 140%;
+	text-align: justify;
+	font-family: Inter, sans-serif;
 }
 
 .mapa{
-      margin: 1vw 1vh;
-      height: 40vh;
-      width: 70vw;
-      background-color: gray;
+	height: 40vh;
+	width: 70vw;
+	background-color: gray;
 }
 
 .infoNegocio{
-      display: flex;
+	display: flex;
 }
 
 .video{
-      margin: 1vw 1vh;
-      padding: 1vw;
-      margin-left: 3vw;
-      width: 50vw;
-      height: 63vh;
-      background-color: aquamarine;
+	margin: 1vw 1vh;
+	padding: 1vw;
+	margin-left: 3vw;
+	width: 50vw;
+	height: 60vh;
+	background-color: aquamarine;
 }
 
 .nuestroTrabajo{
-      margin: 1vw 1vh;
-      padding: 1vw;
-      width: 45vw;
-      display: flex;
-      flex-flow: column;
-      
+	margin: 1vw 1vh;
+	padding: 1vw;
+	width: 45vw;
+	display: flex;
+	flex-flow: column;
+	
 }
 
 .negTitulo{
-      color: white;
-      background-color: #004AAD;
-      border-radius: 15px;
-      font-size: 1.5em;
-      text-align: center;
-      width: fit-content;
-      margin: auto;
-      padding: 1vw;
+	color: white;
+	background-color: #004AAD;
+	border-radius: 15px;
+	font-size: 1.5em;
+	text-align: center;
+	width: fit-content;
+	margin: auto;
+	padding: 1vw;
 }
 
 .negText{
-      margin: 1vw 1vh;
-      padding: 1vw;
-      text-align: justify;
-      background-color: #cdcfd1;
-      border-radius: 20px;
-      font-family: Inter, sans-serif;
+	margin: 1vw 1vh;
+	padding: 1vw;
+	text-align: justify;
+	background-color: #cdcfd1;
+	border-radius: 20px;
+	font-family: Inter, sans-serif;
 }
 
 .piePagina{
-      width: 100vw;
-      background-color: #004AAD;
-      color: white;
-      display: flex;
-      flex-flow: column;
-      margin-top: 2vh ;
+	width: 100vw;
+	background-color: #004AAD;
+	color: white;
+	display: flex;
+	flex-flow: column;
+	margin-top: 2vh ;
 }
 
 .sugerenciasCaja{
-      width: 100vw;
-      height: 20vh;
-      display: flex;
-      font-family: Inter, sans-serif;
+	width: 100vw;
+	height: 20vh;
+	display: flex;
+	font-family: Inter, sans-serif;
 }
 
 .sugTitulo{
-      width: 45vw;
-      margin: 1vw 1vh;
-      padding: 1vw;
-      color: white;
-      text-align: left;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-size: 1.5em;
+	width: 45vw;
+	margin: 1vw 1vh;
+	padding: 1vw;
+	color: white;
+	text-align: left;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.5em;
 }
 
 h3{
-      font-size: 2em;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 2em;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .sugArea{
-      width: 50vw;
-      margin: 1vw 2vh;
-      margin-right: 2vw;
-      padding: 0vw;
-      height: 20vh;
-      background-color: white;
+	width: 50vw;
+	margin: 1vw 2vh;
+	margin-right: 2vw;
+	padding: 0vw;
+	height: 20vh;
+	background-color: white;
 }
 
 .legal{
-      margin: 1vw;
+	margin: 1vw;
 }
 
 ul {
@@ -126,10 +125,10 @@ ul {
     width: 100%;
     height: auto;
     padding: 0;
-      margin: 0;
-      position: fixed;
-      background-color: #004aad;
-      z-index: 4;
+  	margin: 0;
+  	position: fixed;
+  	background-color: #004aad;
+  	z-index: 4;
 
   }
   li{
@@ -143,13 +142,13 @@ ul {
     border-right: solid 2px black;
   }
  li.imagen{
-      float: left;
-      margin-top: -1.8%;
+ 	float: left;
+ 	margin-top: -1.8%;
   border: none;
  }
   a{
-      color: white;
-      text-decoration: none;
+  	color: white;
+  	text-decoration: none;
 
   }
 
@@ -174,9 +173,9 @@ ul {
     text-align: center;
     font-size: 7em;
     border-radius: 3vw;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
- 
+  
   .contenido{
     width: 100%;
     height: 100%;
@@ -192,7 +191,7 @@ ul {
     margin: 2vw;
     margin-top: 7%;
   }
- 
+  
   .titulo2{
     font-size: 4vw;
     background-color: #004aad;
@@ -244,7 +243,7 @@ ul {
 }
 
 .slide img {
-      padding-top: 1vw;
+	padding-top: 1vw;
   width: 40vw;
   height: 30vw;
   object-fit: cover;
@@ -301,3 +300,4 @@ input#slide4:checked ~ .navigation label[for="slide4"],
 input#slide5:checked ~ .navigation label[for="slide5"] {
   background: #333;
 }
+/*carrusel*/
