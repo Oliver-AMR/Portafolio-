@@ -1,0 +1,24 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: lightyellow;
+}
+
+form{
+	border: 2px solid black;
+	width: 50%;
+	height: fit-content;
+	background: lightcyan;
+	margin-left: 25%;
+	padding: 2vw;
+
+}
+
+input, label{
+	margin: 2%;
+}
+input[type=text]{
+	margin: 0;
+	width: 50%;
+}
+
