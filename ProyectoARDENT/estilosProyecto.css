@@ -164,18 +164,18 @@ ul {
     display: flex;
   }
 
-  .nombre{
-    margin: auto;
-    width: 40%;
-    height: 35%;
-    padding-top: 3vw;
-    background-color: #23366b;
-    color:white;
-    text-align: center;
-    font-size: 7em;
-    border-radius: 3vw;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+  .nombre {
+  margin: auto;
+  width: 90%;
+  padding: 3vw 1vw;
+  background-color: #23366b;
+  color: white;
+  text-align: center;
+  font-size: clamp(2rem, 8vw, 6rem); /* escalará según el tamaño de pantalla */
+  border-radius: 3vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
   
   .contenido{
     width: 100%;
