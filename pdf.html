@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cuestionario de Cálculo Integral</title>
+  <script type="text/javascript" src="jspdf/js/jquery/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="jspdf/js/jquery/jquery-ui-1.8.17.custom.min.js"></script>
+	<script type="text/javascript" src="jspdf/jspdf.js"></script>
+
+	<script type="text/javascript" src="jspdf/jspdf.plugin.addimage.js"></script>
+
+	<script type="text/javascript" src="jspdf/jspdf.plugin.standard_fonts_metrics.js"></script>
+	<script type="text/javascript" src="jspdf/jspdf.plugin.split_text_to_size.js"></script>
+	<script type="text/javascript" src="jspdf/jspdf.plugin.from_html.js"></script>
+	<script type="text/javascript" src="pdf.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  <script src="cuestionario.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="pdf.css">
+</head>
+<body>
+  <form id="cuestionario">
+  	<h1>Calculo Integral</h1>
+    <div>
+      <p>1. ¿Cuál es la integral de x?</p>
+      <label><input type="radio" name="q1" value="x^2/2">x^2/2</label><br>
+      <label><input type="radio" name="q1" value="ln(x)">ln(x)</label><br>
+      <label><input type="radio" name="q1" value="e^x">e^x</label>
+    </div>
+
+    <div>
+      <p>2. ¿Cuál es la integral de 1/x?</p>
+      <label><input type="radio" name="q2" value="ln(x)">ln(x)</label><br>
+      <label><input type="radio" name="q2" value="x^2/2">x^2/2</label><br>
+      <label><input type="radio" name="q2" value="sen(x)">sen(x)</label>
+    </div>
+
+    <div>
+      <p>3. ¿Cuál es la integral de cos(x)?</p>
+      <label><input type="radio" name="q3" value="sen(x)">sen(x)</label><br>
+      <label><input type="radio" name="q3" value="-cos(x)">-cos(x)</label><br>
+      <label><input type="radio" name="q3" value="tan(x)">tan(x)</label>
+    </div>
+
+    <div>
+      <p>4. ¿Cuál es la integral de sen(x)?</p>
+      <label><input type="radio" name="q4" value="-cos(x)">-cos(x)</label><br>
+      <label><input type="radio" name="q4" value="cos(x)">cos(x)</label><br>
+      <label><input type="radio" name="q4" value="e^x">e^x</label>
+    </div>
+
+    <div>
+      <p>5. ¿Cuál es la integral de e^x?</p>
+      <label><input type="radio" name="q5" value="e^x">e^x</label><br>
+      <label><input type="radio" name="q5" value="ln(x)">ln(x)</label><br>
+      <label><input type="radio" name="q5" value="1/x">1/x</label>
+    </div>
+
+    <div>
+      <p>6. ¿Cuál es la integral de 0?</p>
+      <label><input type="radio" name="q6" value="0">0</label><br>
+      <label><input type="radio" name="q6" value="C">C</label><br>
+      <label><input type="radio" name="q6" value="x">x</label>
+    </div>
+
+    <button type="button" onclick="generar()">Generar PDF</button>
+  </form>
+  <div id="grafico-puntos" style="width: 90%; max-width: 700px; height: 400px; margin: 3vh auto;"></div>
+
+  <iframe></iframe>
+</body>
+</html>
