@@ -73,7 +73,7 @@ body {
     border-radius: 1rem;
     font-size: clamp(1rem, 2vw, 1.5rem);
     text-align: center;
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding: 1rem;
 }
@@ -85,6 +85,7 @@ body {
     background-color: #cdcfd1;
     border-radius: 1.3rem;
     font-family: Inter, sans-serif;
+	width: 90%; 
     font-size: clamp(1rem, 1.5vw, 1.2rem);
 }
 
