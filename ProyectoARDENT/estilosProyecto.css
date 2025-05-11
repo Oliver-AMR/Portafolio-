@@ -135,7 +135,9 @@ h3 {
     font-size: clamp(0.8rem, 1vw, 1rem);
     margin-top: 2rem;
 }
-
+.menu{
+	width: 100%;
+}
 ul {
     font-family: 'Segoe UI', sans-serif;
     list-style-type: none;
