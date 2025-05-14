@@ -317,7 +317,6 @@ input#slide5:checked ~ .navigation label[for="slide5"] {
 .piePagina {
   width: 100%;
   background-color: #004AAD;
-  color: white;
   margin-top: 3rem;
   padding: 2rem 1rem;
 }
