@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Pago de Estacionamiento</title>
+    <link rel="stylesheet" href="examen practico 3.css">
+    <script type="text/javascript" src="examen practico 3.js"></script>
+</head>
+<body>
+    <h1>Pagos de estacionamiento</h1>
+
+    <div class="formulario">
+        <label for="horas">Horas de estacionamiento:</label>
+        <input type="number" id="horas" name="horas" required>
+
+        <label for="tipo_auto">Tipo de auto:</label>
+        <select id="tipo_auto" name="tipo_auto" required>
+            <option value="">Seleccione un tipo</option>
+            <option value="chico">Auto chico</option>
+            <option value="camioneta">Camioneta</option>
+            <option value="camion">Camión</option>
+        </select>
+
+        <button type="button" onclick="calcularTotal()">Calcular total a pagar</button>
+
+        <div id="resultado">
+            Total a pagar: <span>$0.00</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
