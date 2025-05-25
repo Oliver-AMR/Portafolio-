@@ -160,10 +160,26 @@
     </section>
   </main>
 <script>
-  function loadQuestions() {
-  displayQuestions();
-}
+    // Funcionalidad del FAQ
+    const preguntas = document.querySelectorAll('.pregunta-faq');
+    preguntas.forEach(pregunta => {
+      pregunta.addEventListener('click', () => {
+        const item = pregunta.parentElement;
+        item.classList.toggle('activo');
+        
+        // Cerrar otras preguntas
+        preguntas.forEach(otraPregunta => {
+          if (otraPregunta !== pregunta) {
+            otraPregunta.parentElement.classList.remove('activo');
+          }
+        });
+      });
+    });
 
+    
+    // Landbot (chat)
+    window.addEventListener('mouseover', initLandbot, { once: true });
+window.addEventListener('touchstart', initLandbot, { once: true });
 var myLandbot;
 function initLandbot() {
   if (!myLandbot) {
@@ -179,8 +195,7 @@ function initLandbot() {
     var x = document.getElementsByTagName('script')[0];
     x.parentNode.insertBefore(s, x);
   }
-}
-</script>
+}  </script>
   <!-- Pie de página -->
   <footer class="pie-pagina">
     <div class="seccion-contacto">
