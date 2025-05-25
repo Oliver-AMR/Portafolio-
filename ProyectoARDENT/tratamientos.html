@@ -159,7 +159,28 @@
       </div>
     </section>
   </main>
+<script>
+  function loadQuestions() {
+  displayQuestions();
+}
 
+var myLandbot;
+function initLandbot() {
+  if (!myLandbot) {
+    var s = document.createElement('script');
+    s.type = "module"
+    s.async = true;
+    s.addEventListener('load', function() {
+      myLandbot = new Landbot.Popup({
+        configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2925289-YFZJXUXL5KPSUVLN/index.json',
+      });
+    });
+    s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.mjs';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  }
+}
+</script>
   <!-- Pie de página -->
   <footer class="pie-pagina">
     <div class="seccion-contacto">
